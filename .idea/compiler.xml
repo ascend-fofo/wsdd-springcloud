@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="wsdd-service" />
+        <module name="wsdd-eureka" />
+        <module name="wsdd-zuul" />
+        <module name="wsdd-common-swagger" />
+        <module name="wsdd-web" />
+        <module name="wsdd-common-core" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="wsdd-common" target="1.8" />
+      <module name="wsdd-common-core" target="1.8" />
+      <module name="wsdd-common-swagger" target="1.8" />
+      <module name="wsdd-eureka" target="1.8" />
+      <module name="wsdd-service" target="1.8" />
+      <module name="wsdd-springcloud" target="1.8" />
+      <module name="wsdd-web" target="1.8" />
+      <module name="wsdd-zuul" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="wsdd-common" options="" />
+      <module name="wsdd-common-core" options="" />
+      <module name="wsdd-common-swagger" options="" />
+      <module name="wsdd-eureka" options="" />
+      <module name="wsdd-service" options="" />
+      <module name="wsdd-springcloud" options="" />
+      <module name="wsdd-web" options="" />
+      <module name="wsdd-zuul" options="" />
+    </option>
+  </component>
+</project>

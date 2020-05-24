@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.wsdd.cn</groupId>
+        <artifactId>wsdd-common</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+    <groupId>com.wsdd.cn</groupId>
+    <artifactId>wsdd-common-swagger</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>wsdd-common-swagger</name>
+    <description>Demo project for Spring Boot</description>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <springfox-swagger2.version>2.9.2</springfox-swagger2.version>
+        <swagger-bootstrap-ui.version>1.9.3</swagger-bootstrap-ui.version>
+    </properties>
+
+    <dependencies>
+        <!-- springfox-swagger2 依赖开始 -->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+            <version>${springfox-swagger2.version}</version>
+        </dependency>
+        <!-- springfox-swagger2 依赖结束 -->
+        <!-- swaggerui开始 这里相当于给了一层类似于bootstrap的ui界面 -->
+        <dependency>
+            <groupId>com.github.xiaoymin</groupId>
+            <artifactId>swagger-bootstrap-ui</artifactId>
+            <version>${swagger-bootstrap-ui.version}</version>
+        </dependency>
+        <!-- swaggerui结束 这里相当于给了一层类似于bootstrap的ui界面-->
+    </dependencies>
+
+
+
+</project>

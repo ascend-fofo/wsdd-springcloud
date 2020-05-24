@@ -1,0 +1,43 @@
+
+server:
+  port: 8081
+
+#ascend-springcloud-service:
+#  ribbon:
+#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+
+feign:
+  hystrix:
+    enabled: true
+
+spring:
+  redis:
+    host: localhost
+    port: 6379
+    password: 123456
+  application:
+    name: wsdd-springcloud-web
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+wxPayConfig:
+  appid: wxab8acb865bb1637e
+  mch_id: 11473623
+  notify_url: https://affe26ef.ngrok.io/buy/payNotify
+  key: 2ab9071b06b9f739b950ddb41db2690d
+  unifiedUrl: https://api.mch.weixin.qq.com/pay/unifiedorder
+
+wx:
+  appId: wx5e5f486298bca6bd
+  redirectUri: https://39d7108a.ngrok.io/wx/callBack
+  responseType: code
+  codeUrl: https://open.weixin.qq.com/connect/oauth2/authorize
+  scope: snsapi_userinfo
+  accessTokenUri: https://api.weixin.qq.com/sns/oauth2/access_token
+  secret: f4dd878a9f4fb7d7c44a414db3fa1fc6
+  grantType: authorization_code
+  userInfoUri: https://api.weixin.qq.com/sns/userinfo
+  loginSuccess: www.dwlovetzp.com/wxtoken?

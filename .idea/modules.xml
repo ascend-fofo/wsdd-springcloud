@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/wsdd-common/wsdd-common.iml" filepath="$PROJECT_DIR$/wsdd-common/wsdd-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wsdd-common/wsdd-common-core/wsdd-common-core.iml" filepath="$PROJECT_DIR$/wsdd-common/wsdd-common-core/wsdd-common-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wsdd-common/wsdd-common-swagger/wsdd-common-swagger.iml" filepath="$PROJECT_DIR$/wsdd-common/wsdd-common-swagger/wsdd-common-swagger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wsdd-eureka/wsdd-eureka.iml" filepath="$PROJECT_DIR$/wsdd-eureka/wsdd-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wsdd-service/wsdd-service.iml" filepath="$PROJECT_DIR$/wsdd-service/wsdd-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wsdd-springcloud.iml" filepath="$PROJECT_DIR$/wsdd-springcloud.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wsdd-web/wsdd-web.iml" filepath="$PROJECT_DIR$/wsdd-web/wsdd-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/wsdd-zuul/wsdd-zuul.iml" filepath="$PROJECT_DIR$/wsdd-zuul/wsdd-zuul.iml" />
+    </modules>
+  </component>
+</project>

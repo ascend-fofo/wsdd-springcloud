@@ -1,0 +1,16 @@
+spring:
+  redis:
+    host: localhost
+    port: 6379
+    password: 123456
+  activemq:
+    broker-url: tcp://127.0.0.1:61616
+    user: admin
+    password: admin
+    packages:
+      trust-all: true    #信任所有包
+    in-memory: true  #代理
+    non-blocking-redelivery: false  #保证消息顺序性,在消息发送时候如果回滚之前，停止命令，则消息顺序不会被保存
+    send-timeout: 0   #等待消息发送时间，0代表永远
+  jms:
+    pub-sub-domain: true   #默认情况下activeMQ提供的是queue模式,如果选择topic(订阅)，则选择true
